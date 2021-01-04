@@ -1,0 +1,46 @@
+html:
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+<div id="call">
+<div class="material-icons">home</div>
+  <li class="tool"><a href="default.asp"><strong>Emergency Contacts</strong></a></div>
+  <li class="go"><a href="news.asp">More</a></div>
+  <li  id="you" class="tool"><a href="about.asp"><strong>EMERGENCY !</strong></a></div>
+  <li id="yup" class="go"><a href="contact.asp">User</a></div>
+ </div>
+ 
+ 
+css: 
+#call{
+       background-color:#000033;
+       height:50px;
+     }
+a{
+  text-decoration:none;
+  padding:9px 9px ;
+  margin:13px 13px;
+ }
+nav{
+    padding:5px;
+   }
+#yup{
+     color:white;
+     float:right;
+  }
+ #you{
+      color: #ff0000;
+      float:right;
+  }
+.material-icons{
+                 color: white;
+               }
+.go{
+     color:white;
+  }
+.tool{
+      color:red;
+     }
+li{
+    float:left;
+    list-style:none;
+ }
